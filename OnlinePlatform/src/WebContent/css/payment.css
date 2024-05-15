@@ -1,0 +1,231 @@
+
+
+@font-face {
+    font-family:style;
+    src: url(../font/BodoniFLF-Bold.ttf);
+  }
+  /*reg*/
+  @font-face {
+    font-family: Avalon1;
+    src: url(../font/Avalon.ttf);
+  }
+
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+        
+    .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    }
+
+    .button-container {
+    text-align: center;
+    }
+
+    .button-container button {
+    margin: 5px;
+    }
+
+  
+  h2{
+      display: inherit;
+      font-family: Avalon1;
+      color: white;
+      font-size: 45px;
+  }
+  
+  .a1{
+      font-family: Avalon1;
+      color: white;
+      font-size: 20px;
+      }
+  .a2{
+      font-family: Avalon1;
+      color: white;
+      font-size: 15px;
+      }
+  .a3{
+      font-family: Avalon;
+      background:linear-gradient(to right bottom,#d46fe9 0%, #72e94b 45%, #deed0a 100%);
+      font-size: 15px;
+      -webkit-text-fill-color: transparent;
+      }
+      
+  .container{
+      width:100%;
+      height:100%;
+      position:absolute;
+      padding:90px 70px 50px 70px;
+      background:linear-gradient(to right bottom,hsl(169, 89%, 48%) 0%, #0987ee 45%, #ffffff 100%);
+      margin:auto;
+      max-width:525px;
+      min-height:670px;
+      position:relative;
+      box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+  input[type=text], input[type=date], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  
+
+  .btn{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	border-radius:10px;
+	width:0;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px
+}
+ 
+.h1{
+    color: cadetblue;
+}
+  .btn-1{
+      float:center;
+      padding: 10px 20px;
+      background-image:linear-gradient(to right bottom,#ccd213 0%, #40c0a2 45%, #086d79 100%)
+  
+  }
+  .btn-1:hover{
+      background-position: center;
+  }
+
+
+  select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #179daa;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #5eb8e5;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #23c6c6;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #8e8928;
+ }
+ 
+ .pcard{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ 
+ .card{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	border-radius:10px;
+	width:40%;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px;
+    margin:20px
+
+}
+
+.card-1{
+    float:center;
+    padding: 10px 20px;
+    background-image:linear-gradient(to right bottom,#4ca7e8 0%, #302de2 45%, #ffffff 100%)
+
+}
+.card-1:hover{
+    background-position: center;
+}
+
+.card2{
+	font-size: 20px;
+	border: none;
+	text-align:center;
+	transition:0.5s;
+	background-size:200% auto;
+	color:white;
+	border-radius:10px;
+	width:40%;
+	cursor:pointer;
+	display: inline-block;
+	border-radius:25px;
+    margin:20px
+    
+}
+
+.card-2{
+    float:center;
+    padding: 10px 20px;
+    background-image:linear-gradient(to right bottom,#f10909 0%, #ec6767 45%, #ffffff 100%)
+
+}
+.card-2:hover{
+    background-position: center;
+}

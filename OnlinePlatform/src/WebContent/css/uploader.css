@@ -1,0 +1,128 @@
+ table {
+    width: 100%;
+    border-collapse: collapse;
+	margin: 20px 0px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }  
+
+
+ .dashboard-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 90px 70px 50px 70px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 50px;
+  background-color: #f0f0f0;
+}
+
+.content-area-container {
+  width: 75%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0px 30px;
+  min-height: 585px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-info-container {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+    .user-info-box {
+      
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 20px;
+    }
+
+  .user-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    .user-info {
+      text-align: center;
+    }
+
+    .user-username {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .user-member-since {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .tab-menu {
+      
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .tab-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .tab-menu ul li {
+      margin-bottom: 10px;
+    }
+
+    .tab-menu ul li a {
+      display: block;
+      text-decoration: none;
+      padding: 10px 15px;
+      color: #333;
+      background-color: transparent;
+    }
+
+    .tab-menu ul li a:hover {
+      background-color: #ddd;
+    }
+
+    .tab-menu ul li a.active {
+      background-color: #fff;
+    }
+
+    .content-area {
+      width: 75%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+	  
+    }
+	
+	#my-projects button {
+    padding: 5px 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+	#my-projects button:hover {
+    background-color: #c82333;
+  }

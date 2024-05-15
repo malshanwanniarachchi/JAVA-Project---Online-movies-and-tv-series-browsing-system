@@ -1,0 +1,98 @@
+/* Dashboard section */
+#dashboard {
+  /* Add your styles for the dashboard section here */
+}
+
+#app_price:disabled {
+  background-color: #ddd; /* Change to the desired grey color */
+}
+
+/* App upload form */
+#dashboard form {
+  width: 400px;
+  margin: 20px;
+}
+
+#dashboard form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#dashboard form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#dashboard form input[type="text"],
+#dashboard form input[type="number"],
+#dashboard form textarea,
+#dashboard form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#dashboard form textarea {
+  resize: vertical;
+}
+
+#dashboard form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#dashboard form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#dashboard form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-row {
+  flex: 1;
+  display: flex;
+  gap: 50px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Style for the Delete button */
+.delete-btn {
+	background-color: #c82333; /* Set the background color */
+	color: #FFF; /* Set the text color */
+	padding: 5px 10px; /* Adjust the padding as needed */
+	border: none; /* Remove the button border */
+	cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for the Update Status button */
+.update-status-btn {
+	background-color: #009688; /* Set the background color */
+	color: #FFF; /* Set the text color */
+	padding: 5px 10px; /* Adjust the padding as needed */
+	border: none; /* Remove the button border */
+	cursor: pointer; /* Add a pointer cursor on hover */
+}

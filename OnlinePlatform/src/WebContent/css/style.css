@@ -1,0 +1,16 @@
+.main-div-home{
+    height: 200px;
+   background: linear-gradient(to bottom, #34d81e, #77daa0);
+}
+.login-div{
+    border: solid rgb(134, 134, 134) 1px;
+    border-radius: 10px;
+ 
+}
+.big-text{
+    font-size: 50px;
+}
+
+.logo{
+    width: 100px;
+}
